@@ -1,0 +1,10 @@
+default: --format pretty
+         --format json --output cucumber-report.json
+         --format html --output cucumber-report.html
+
+api: features/scenarios/api
+     -r features/support
+     -r object_abstractions/api
+     -r features/helper
+     -r config/api
+     -r features/step_definitions/api

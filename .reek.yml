@@ -1,0 +1,9 @@
+---
+detectors:
+  Attribute:
+    enabled: false
+  IrresponsibleModule:
+    enabled: false
+  TooManyStatements:
+    enabled: true
+    max_statements: 10
