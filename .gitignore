@@ -1,5 +1,6 @@
 .ruby-*
 .env
+log
 
 # reports
 cucumber-report.*

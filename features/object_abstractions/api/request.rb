@@ -8,6 +8,7 @@ class Request
       options = { headers: headers, timeout: timeout, body: body }
       response = HTTParty.send(method.downcase, base_url + url, options)
 
+      ::LoggerOut.debug(response)
       ::Response.save(response)
     end
   end
