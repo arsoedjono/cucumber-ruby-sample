@@ -2,7 +2,7 @@ Feature: Hit an endpoint
 
   Scenario: Get a resource from JSONPlaceholder
     When sending a GET request to "/posts/1"
-    Then show the response
+    Then response status should be 200
 
   Scenario: Create a resource to JSONPlaceholder
     Given headers set:
@@ -15,4 +15,4 @@ Feature: Hit an endpoint
         "userId": 1
       }
       """
-    Then show the response
+    Then response status should be 201
