@@ -9,5 +9,5 @@ When(/^sending a (.*) request to "([^"]*)"(?: with body:)?$/) do |*args|
 end
 
 Then('show the response') do
-  puts Request.response
+  puts Response.body
 end

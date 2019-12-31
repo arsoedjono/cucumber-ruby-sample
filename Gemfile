@@ -1,3 +1,5 @@
+# frozen_string_literal: true
+
 source 'https://rubygems.org'
 
 # general gems
@@ -12,5 +14,4 @@ gem 'jsonpath', '~> 1.0', '>= 1.0.5'
 group :development do
   gem 'pronto', '~> 0.10.0'
   gem 'pronto-rubocop', '~> 0.10.0'
-  gem 'pronto-reek', '~> 0.10.0'
 end
