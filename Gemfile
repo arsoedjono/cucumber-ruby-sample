@@ -8,7 +8,7 @@ gem 'dotenv', '~> 2.7', '>= 2.7.5'
 gem 'rspec', '~> 3.9'
 
 # for API
-gem 'httparty', '~> 0.17.1'
+gem 'httparty', '~> 0.21.0'
 gem 'jsonpath', '~> 1.0', '>= 1.0.5'
 
 group :development do
